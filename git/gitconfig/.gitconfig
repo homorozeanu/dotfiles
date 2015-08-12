@@ -1,0 +1,18 @@
+[user]
+  name = George Homorozeanu
+  email = george.homorozeanu@gmail.com
+[color]
+  ui = auto
+[merge]
+  tool = p4merge
+[core]
+  editor = vim
+  editor = mate
+  editor = vim
+  autocrlf = true
+  excludesfile = C:\\Users\\homogeo\\Documents\\gitignore_global.txt
+  pager = less -r
+[diff]
+  tool = p4merge
+[difftool "p4diff"]
+  external = '"C:/DevTools/Perforce/p4merge.exe" "$LOCAL" "$REMOTE"'

@@ -1,0 +1,8 @@
+set cursorline
+set scrolloff=5
+
+let mapleader=","
+
+noremap <Leader>j 10j
+noremap <Leader>k 10k
+
