@@ -1,0 +1,4 @@
+$include /etc/inputrc
+
+# Enable case-insesitive tab completion
+set completion-ignore-case On
