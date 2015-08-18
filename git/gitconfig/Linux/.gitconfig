@@ -1,0 +1,9 @@
+[user]
+  name = George Homorozeanu
+  email = george.homorozeanu@gmail.com
+[color]
+  ui = auto
+[core]
+  editor = vim
+  autocrlf = true
+  pager = less -r

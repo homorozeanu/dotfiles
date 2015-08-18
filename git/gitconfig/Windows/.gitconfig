@@ -7,8 +7,6 @@
   tool = p4merge
 [core]
   editor = vim
-  editor = mate
-  editor = vim
   autocrlf = true
   excludesfile = C:\\Users\\homogeo\\Documents\\gitignore_global.txt
   pager = less -r
