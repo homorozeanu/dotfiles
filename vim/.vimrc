@@ -2,7 +2,7 @@
 "--------------------------------------------------------------------------
 
 " pathogen - must come first ----------------------------------------------
-"call pathogen#infect()
+:silent! call pathogen#infect()
 " important ---------------------------------------------------------------
 set nocompatible                                      "don't behave like Vi
 " moving around, searching and patterns -----------------------------------
@@ -87,9 +87,11 @@ if has("gui")
     set lines=65 columns=110
 endif
 " -------------------------------------------------------------------------
-"colorscheme solarized
-filetype plugin indent on
 syntax on
+set t_Co=256                                    "for solarized color scheme
+let g:solarized_termcolors=256                  "for solarized color scheme
+:silent! colorscheme solarized
+filetype plugin indent on
 let mapleader=","
 " mappings ----------------------------------------------------------------
 nnoremap \ ,
