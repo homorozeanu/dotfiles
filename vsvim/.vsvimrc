@@ -5,4 +5,5 @@ let mapleader=","
 
 noremap <Leader>j 10j
 noremap <Leader>k 10k
-
+noremap <Leader>o o<Enter><Esc>O
+noremap <Leader>O O<Enter><Esc>O
