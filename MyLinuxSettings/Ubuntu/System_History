@@ -1,0 +1,50 @@
+Installed Software:
+==================
+1. Skype
+2. Dropbox
+3. SMPlayer
+4. TorrentClient (Azureus)
+5. launchy/albert
+6. mono develop
+7. mozilla thunderbird
+8. vim
+9. vscode
+10. git
+11. chrome
+12. KeePass
+13. Krusader
+14. Adobe PDF Reader
+15. vnc
+16. Geary (eMail client)
+17. Pidgin (internet messenger)
+18. dconf Editor
+19. HP Laserjet 1018/1020
+20. Brasero Disc Burner
+21. calibre
+22. KDiff3
+23. Kompare
+24. IDLE
+
+
+Configurations:
+==============
+1. New folder Storage in ~ containing following sub folders(this folder will be backed up)
+  - Audio
+  - Bin
+  - Desktop
+  - Development
+  - Docs
+  - Docs/Dropbox
+  - Docs/eMail
+  - Dotfiles
+  - Downloads
+  - Pictures
+  - Videos
+Symlink from ~ to each sub folder of Storage. Backup /Storage folder to /Data/Backups/N73SV - Ubuntu
+2. New folder in ~ called Dotfiles (symlink to Storage/Dotfiles)
+3. Symlink for .bash_profile to /Dotfiles/bash/.bash_profile
+4. Symlink for .gitconfig to /Dotfiles/git/gitconfig/Linux/.gitconfig
+5. Symlink for .inputrc to /Dotfiles/bash/.inputrc
+6. Symlink for .vimrc to /Dotfiles/vim/.vimrc
+7. Configure Dropbox to save data to /Storage/Docs/Dropbox
+8. Configure Thunderbird to save emails to /Storage/Docs/eMail (http://kb.mozillazine.org/Moving_your_mail_storage_location_(Thunderbird))
