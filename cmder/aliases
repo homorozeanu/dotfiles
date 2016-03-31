@@ -8,4 +8,4 @@ clear=cls
 history=cat %CMDER_ROOT%\config\.history
 unalias=alias /d $1
 c.=code .
-newdir=mkdir $1 & cd $1
+mkcd=mkdir $1 & cd $1
